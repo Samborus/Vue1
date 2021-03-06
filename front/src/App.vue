@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" class="overlay">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
@@ -28,5 +28,16 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.overlay {
+  position: absolute; 
+  top: 0; 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }
 </style>
