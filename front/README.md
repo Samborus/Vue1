@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+https://www.jqueryscript.net/demo/Diagonal-Slider-jQuery-Cross-Slider/
