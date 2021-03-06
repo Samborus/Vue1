@@ -13,10 +13,6 @@
       <b-carousel-slide 
         img-src="https://picsum.photos/1024/480/?image=52">
       </b-carousel-slide>
-      <!-- 
-      <b-carousel-slide 
-        img-src="https://picsum.photos/1024/480/?image=52">
-      </b-carousel-slide> -->
   </b-carousel>
 </template>
 <script>
@@ -25,17 +21,4 @@ export default {
 }
 </script>
 <style scoped>
-.carousel-caption {
-    position: absolute !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    z-index: 10 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    color: #fff !important;
-    text-align: center !important;
-    width: 100% !important;
-    height: 100% !important;
-}
 </style>
