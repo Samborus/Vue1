@@ -1,7 +1,7 @@
 <template>
 <div>
     <img :src="pics[index]" class="slider-left" />
-    <img :src="pics[getIndex(pics, index)]" class="slider-right" />
+    <img :src="pics[getNextIndex(pics, index)]" class="slider-right" />
 </div>
 </template>
 <script>
@@ -11,13 +11,12 @@ export default {
         index: null
     },
     methods: {
-        getIndex(pics, index) {
+        getNextIndex(pics, index) {
             if (index === pics.length - 1) {
                 return 0;
             } else {
-                return index;
+                return index + 1;
             }
-
         }
     }
 }

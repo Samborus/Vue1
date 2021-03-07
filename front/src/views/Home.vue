@@ -23,7 +23,7 @@ export default {
         }
    },
    mounted() {
-     this.pics = ['https://picsum.photos/1024/480/?image=52', 'https://picsum.photos/1024/480/?image=52', 'https://picsum.photos/1024/480/?image=52'];
+     this.pics = ['https://picsum.photos/1024/480/?image=50', 'https://picsum.photos/1024/480/?image=51', 'https://picsum.photos/1024/480/?image=52'];
      console.log(this.pics);
    },
   components: {
