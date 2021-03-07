@@ -8,7 +8,6 @@
       img-height="480"
       style="text-shadow: 1px 1px 2px #333 !important;"
     >
-      <!-- Text slides with image -->
       <slot name="main"></slot>
   </b-carousel>
 </template>

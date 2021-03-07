@@ -33,8 +33,6 @@ export default {
     width: 100%;
     height: 100%;
     padding: 0;
-    /* -webkit-clip-path: polygon(0 0, 90% 0, 80% 100%, 0% 100%);
-    clip-path: polygon(0 0, 90% 0, 80% 100%, 0% 100%); */
 }
 
 .slider-right {
