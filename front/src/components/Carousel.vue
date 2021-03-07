@@ -10,9 +10,6 @@
     >
       <!-- Text slides with image -->
       <slot name="main"></slot>
-      <b-carousel-slide 
-        img-src="https://picsum.photos/1024/480/?image=52">
-      </b-carousel-slide>
   </b-carousel>
 </template>
 <script>
